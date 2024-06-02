@@ -1,0 +1,28 @@
+.turn-container {
+  width: 39%;
+  height: 52px;
+  margin: 10px 0px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: rgb(26, 26, 26);
+}
+
+.turn-container div {
+  height: 90%;
+  aspect-ratio: 1/1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  font-weight: bolder;
+  font-size: 3em;
+}
+
+.selected {
+  /*background-color: rgba(126, 208, 162, 0.8); */
+  background-color: rgb(180, 247, 154, 0.7);
+}

@@ -1,0 +1,38 @@
+.board-container {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.board {
+  padding: 15px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: rgb(26, 26, 26);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr fr fr;
+  grid-gap: 5px;
+}
+
+.reset {
+  margin-top: 20px;
+  padding: 8px 5px;
+  border-radius: 5px;
+  border: 2px solid white;
+  background-color: rgb(26, 26, 26);
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease all;
+}
+
+.reset:hover{
+  border-color: rgb(48, 70, 116);
+  color: rgb(152, 186, 213);
+}
+
+h2 {
+  margin: 0px;
+  font-size: 2.5em;
+}

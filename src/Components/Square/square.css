@@ -1,0 +1,19 @@
+.square-container {
+    height: 70px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 4em;
+
+    border: 2px solid white;
+    background-color: rgb(36, 36, 36);
+    
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+div.square-container:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}

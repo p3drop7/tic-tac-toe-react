@@ -1,0 +1,42 @@
+.winnerModal-container {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(26, 26, 26, 0.8);
+}
+
+.winnerModal-container div {
+    width: 20vw;
+    aspect-ratio: 1/0.7;
+    background-color: rgb(26, 26, 26);
+    border: 3px solid white;
+    border-radius: 5px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.winnerModal-container div h2 span {
+    color: rgb(0, 81, 135);
+}
+
+.winnerModal-container button {
+    margin-top: 20px;
+  padding: 8px 5px;
+  border-radius: 5px;
+  border: 2px solid white;
+  background-color: rgb(26, 26, 26);
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease all;
+}
+
+.winnerModal-container button:hover{
+  border-color: rgb(48, 70, 116);
+  color: rgb(152, 186, 213);
+}
